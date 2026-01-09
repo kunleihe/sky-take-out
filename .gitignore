@@ -7,4 +7,3 @@
 
 # config
 sky-server/src/main/resources/application-dev.yml
-sky-server/src/main/resources/application.yml
