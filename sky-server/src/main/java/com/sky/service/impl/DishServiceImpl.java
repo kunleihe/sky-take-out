@@ -156,6 +156,7 @@ public class DishServiceImpl implements DishService {
      * @return
      */
     public List<Dish> list(Long categoryId) {
+        log.info("根据分类id: {} 查询菜品种类", categoryId);
         Dish dish = Dish.builder()
                 .categoryId(categoryId)
                 .status(StatusConstant.ENABLE)
