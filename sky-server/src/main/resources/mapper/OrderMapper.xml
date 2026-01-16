@@ -80,7 +80,7 @@
                 AND order_time >= #{begin}
             </if>
             <if test = "end != null">
-                AND order_time >= #{end}
+                AND order_time &lt;= #{end}
             </if>
         </where>
     </select>
